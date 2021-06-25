@@ -18,30 +18,28 @@
   </head>
   <body>
     <!-- Шапка страницы -->
-    <header class="header conteiner header-border">
+    <header class="header conteiner">
       <nav class="nav-conteiner">
-        <a class="logo link" href="/">Web<span class="header-logo">Studio</span></a>
+        <a class="logo link" href="index.html">Web<span class="header-logo">Studio</span></a>
         <ul class="nav-main-list list">
           <li class="item"><a class="nav-main current link" href="index.html">Студия</a></li>
           <li class="item"><a class="nav-main link" href="./portfolio.html">Портфолио</a></li>
           <li class="item"><a class="nav-main link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <div class="nav-contacts-conteiner">
-        <ul class="nav-contacts list">
-          <li class="nav-contacts-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="nav-contacts-item">
-            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav-contacts list">
+        <li class="nav-contacts-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="nav-contacts-item">
+          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <!-- Основной контент  -->
     <main>
       <section class="section">
-        <div class="conteiner button-margin">
+        <div class="conteiner">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="button-flex list">
             <li class="item"><button type="button" class="button-portfolio button">Все</button></li>
@@ -58,8 +56,6 @@
               <button type="button" class="button-portfolio button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-        <div class="conteiner">
           <ul class="portfolio-flex list">
             <li class="item">
               <img
@@ -149,12 +145,14 @@
       </section>
     </main>
     <!-- Подвал страницы -->
-    <footer class="footer">
-      <div class="conteiner footer-padding">
-        <a class="logo link" href="/">Web<span class="footer-logo">Studio</span></a>
+    <footer class="footer background-width">
+      <div class="conteiner">
+        <a class="footer-logo-measurements link" href="index.html"
+          >Web<span class="footer-logo">Studio</span></a
+        >
         <address>
           <ul class="list">
-            <li>
+            <li class="footer-margin">
               <a
                 class="footer address link"
                 href="https://goo.gl/maps/Bgxvi77Lv6ApDNNu9"
@@ -166,7 +164,7 @@
             <li class="footer-margin">
               <a class="footer contacts link" href="mailto:info@devstudio.com">info@example.com</a>
             </li>
-            <li>
+            <li class="footer-margin">
               <a class="footer contacts link" href="tel:+380961111111">+38 099 111 11 11</a>
             </li>
           </ul>

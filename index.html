@@ -20,33 +20,31 @@
     <!-- Шапка страницы -->
     <header class="header conteiner">
       <nav class="nav-conteiner">
-        <a class="logo link" href="/">Web<span class="header-logo">Studio</span></a>
+        <a class="logo link" href="index.html">Web<span class="header-logo">Studio</span></a>
         <ul class="nav-main-list list">
           <li class="item"><a class="nav-main current link" href="index.html">Студия</a></li>
           <li class="item"><a class="nav-main link" href="./portfolio.html">Портфолио</a></li>
           <li class="item"><a class="nav-main link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <div class="nav-contacts-conteiner">
-        <ul class="nav-contacts list">
-          <li class="nav-contacts-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="nav-contacts-item">
-            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav-contacts list">
+        <li class="nav-contacts-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="nav-contacts-item">
+          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <!-- Основной контент -->
     <main>
       <section class="hero-width">
-        <div class="conteiner hero-background">
+        <div class="conteiner">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button-primary button">Заказать услугу</button>
         </div>
       </section>
-      <section class="section">
+      <section class="section-features">
         <div class="conteiner">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="features-flex list">
@@ -77,7 +75,7 @@
           </ul>
         </div>
       </section>
-      <section class="section margin-made">
+      <section class="section">
         <div class="conteiner">
           <h2 class="made-title">Чем мы занимаемся</h2>
           <ul class="made-flex list">
@@ -97,45 +95,47 @@
         <div class="conteiner">
           <h2 class="title-team">Наша команда</h2>
           <ul class="team-flex list">
-            <div class="card-team">
-              <li class="item">
-                <img src="./images/img1.jpg" alt="Фотография" width="270" height="260" />
+            <li class="item">
+              <img src="./images/img1.jpg" alt="Фотография" width="270" height="260" />
+              <div class="card-team">
                 <h3 class="member-team">Игорь Демьяненко</h3>
                 <p class="position">Product Designer</p>
-              </li>
-            </div>
-            <div class="card-team">
-              <li class="item">
-                <img src="./images/img2.jpg" alt="Фотография" width="270" height="260" />
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/img2.jpg" alt="Фотография" width="270" height="260" />
+              <div class="card-team">
                 <h3 class="member-team">Ольга Репина</h3>
                 <p class="position">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="card-team">
-              <li class="item">
-                <img src="./images/img3.jpg" alt="Фотография" width="270" height="260" />
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/img3.jpg" alt="Фотография" width="270" height="260" />
+              <div class="card-team">
                 <h3 class="member-team">Николай Тарасов</h3>
                 <p class="position">Marketing</p>
-              </li>
-            </div>
-            <div class="card-team">
-              <li class="item">
-                <img src="./images/img4.jpg" alt="Фотография" width="270" height="260" />
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/img4.jpg" alt="Фотография" width="270" height="260" />
+              <div class="card-team">
                 <h3 class="member-team">Михаил Ермаков</h3>
                 <p class="position">UI Designer</p>
-              </li>
-            </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- Подвал страницы -->
     <footer class="footer background-width">
-      <div class="conteiner footer-padding">
-        <a class="logo link" href="/">Web<span class="footer-logo">Studio</span></a>
+      <div class="conteiner">
+        <a class="footer-logo-measurements link" href="index.html"
+          >Web<span class="footer-logo">Studio</span></a
+        >
         <address>
           <ul class="list">
-            <li>
+            <li class="footer-margin">
               <a
                 class="footer address link"
                 href="https://goo.gl/maps/Bgxvi77Lv6ApDNNu9"
@@ -147,7 +147,7 @@
             <li class="footer-margin">
               <a class="footer contacts link" href="mailto:info@devstudio.com">info@example.com</a>
             </li>
-            <li>
+            <li class="footer-margin">
               <a class="footer contacts link" href="tel:+380961111111">+38 099 111 11 11</a>
             </li>
           </ul>

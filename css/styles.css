@@ -57,6 +57,8 @@ body {
 }
 /* logo */
 .logo {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 26px;
@@ -64,14 +66,22 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+.footer-logo-measurements {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  display: block;
+}
 .header-logo {
   color: var(--logo-color);
 }
 .footer-logo {
   color: var(--secondary-color-white);
-  margin-top: 0px;
-  margin-bottom: 20px;
-  display: inline-block;
 }
 /* nav */
 .nav-main-list {
@@ -93,10 +103,10 @@ body {
 }
 .nav-contacts {
   display: flex;
+  margin-left: auto;
 }
 .nav-contacts-conteiner {
   display: flex;
-  margin-left: auto;
 }
 .nav-main:hover,
 .nav-main:focus {
@@ -106,6 +116,8 @@ body {
   color: var(--accent-color);
 }
 .contact-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 .contact-link:hover,
@@ -129,14 +141,12 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color-white);
 }
-.hero-background {
+.hero-width {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-.hero-width {
   margin: 0 auto;
-  width: 1600px;
+  max-width: 1600px;
   background-color: var(--bgc-hero-footer);
 }
 /* button */
@@ -154,6 +164,7 @@ body {
   font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  border-color: transparent;
   color: var(--secondary-color-white);
   background-color: var(--accent-color);
 }
@@ -174,6 +185,8 @@ body {
 .button-flex {
   display: flex;
   justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 .button-flex > .item:not(:last-child) {
   margin-right: 8px;
@@ -183,11 +196,10 @@ body {
   color: var(--secondary-color-white);
   background-color: var(--accent-color);
 }
-.button-margin {
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
 /* section features */
+.section-features {
+  padding-top: 94px;
+}
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -220,15 +232,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.made-flex,
-.made-flex > .item {
+.made-flex {
   display: flex;
 }
 .made-flex .item:not(:last-child) {
   margin-right: var(--margin-content);
-}
-.margin-made {
-  padding-top: -94px;
 }
 /* section team */
 .team {
@@ -247,17 +255,19 @@ body {
 .team-flex {
   display: flex;
 }
-.team-flex .card-team:not(:last-child) {
+.team-flex > .item:not(:last-child) {
   margin-right: var(--margin-content);
 }
 .card-team {
+  margin-top: var(--margin-content);
+  margin-bottom: var(--margin-content);
   border-radius: 0px 0px 4px 4px;
   background: var(--secondary-color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .member-team {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -284,17 +294,12 @@ body {
 }
 .background-width {
   margin: 0 auto;
-  width: 1600px;
-}
-.footer-padding {
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
 }
 .footer.address {
   color: var(--secondary-color-white);
-  margin-top: 0px;
-  margin-bottom: 9px;
-  display: inline-block;
 }
 .footer.contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -303,8 +308,7 @@ body {
 .footer.contacts:focus {
   color: var(--accent-color);
 }
-.footer-margin {
-  margin-top: 0px;
+.footer-margin:not(:last-child) {
   margin-bottom: 9px;
 }
 /* page portfolio */
@@ -327,15 +331,18 @@ body {
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .portfolio-flex .item {
   flex-basis: calc((100% - 90px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .portfolio-set-border {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  border-top: none;
 }
 /* hidden titel */
 .visually-hidden {
